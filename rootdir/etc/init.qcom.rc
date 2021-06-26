@@ -263,6 +263,12 @@ on boot
     write /sys/bus/coresight/devices/coresight-tmc-etr/enable_sink 1
     write /sys/bus/coresight/devices/coresight-stm/enable_source 1
     write /sys/bus/coresight/devices/coresight-stm/hwevent_enable 0
+   
+   # Enable qcrild and data services
+    enable vendor.qcrild
+    enable vendor.qcrild2
+    enable vendor.dataqti
+    enable vendor.dataadpl
 
 # msm specific files that need to be created on /data
 on post-fs-data
