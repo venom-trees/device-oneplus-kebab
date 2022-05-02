@@ -64,6 +64,9 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 vendor.mm.enable.qcom_parser=16711679
 persist.mm.enable.prefetch=true
 
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
 
